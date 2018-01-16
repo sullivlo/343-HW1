@@ -1,21 +1,31 @@
 # 343-HW1
 ## Structure of Programming Languages with Ira Woodring
-
-
 ### Common Git command
 
-git init
+#### git init
+Creates a local repository
+Default local repo name is Master
 
-git status
+#### git status
+Shows tracked and untracked files
 
-git log
+Shows staged and unstaged files
 
-git add
+#### git add <file>
+Stages file to tracked changes
 
-git pull
+#### git commit -m "description"
+Commit staged files 
+-m allows commit notes as a txt description
 
-git push
+#### git log
+Shows commit history
 
-git diff --Head
+#### git pull
+Will fetch and replay the changes from the remote master branch
 
-git dif
+#### git push
+Push commits made on your local branch to a remote repository
+
+#### git diff --Head
+This form is to view the changes you have in your working tree relative to the named
